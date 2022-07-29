@@ -17,3 +17,18 @@ dependencies {
 test {
     useJUnitPlatform()
 }
+dependencies {
+    testImplementation 'org.testng:testng:7.1.0'
+
+}
+
+test {
+    useTestNG()
+}
+dependencies {
+    testImplementation 'junit:junit:4.13'
+}
+
+test {
+    useJUnit()
+}
