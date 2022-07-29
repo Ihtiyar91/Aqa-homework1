@@ -17,3 +17,10 @@ dependencies {
 test {
     useJUnitPlatform()
 }
+dependencies {
+    testImplementation 'junit:junit:4.13'
+}
+
+test {
+    useJUnit()
+}
